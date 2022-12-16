@@ -1,0 +1,26 @@
+body {margin:0;padding:0;font-size:16px;font-family: 'Josefin Sans', sans-serif;background:#f1f1f1;color:#000;}
+h2 {margin-top:2rem;border-bottom:1px solid #c1c1c1;}
+h3 {font-size:1.25rem;}
+p {font-size:1rem;}
+pre {padding:.25rem .5rem;font-size:.75rem;background:#444;color:#e1e1e1;border:1px solid #666;border-radius:5px;box-shadow:0 0 10px rgba(0,0,0,0.25);}
+.container {max-width:960px;}
+.vox-about {padding:1.25rem;background:#fff;border-bottom:1px solid #e1e1e1;border-radius:5px 5px 0 0;}
+.vox-photo {display:block;margin:1rem auto;border-radius:5px;box-shadow:0 0 10px rgba(0,0,0,0.25);}
+.vox-side {padding:1rem;background:#e1e1e1;border-radius:0 0 0 5px;}
+.contact-me {list-style-type:none;padding-left:0;}
+.contact-me i {margin-right:.5rem;color:#000;}
+.vox-main {padding:1rem;background:#fff;border-radius:0 0 5px 0;}
+footer {margin-top:1.25rem;background:transparent;}
+footer p,
+footer a {font-size:.875rem;}
+.copyright {display:flex;justify-content:center;align-items:center;}
+.school {height:2rem;margin-bottom:1.25rem;display:flex;justify-content:center;align-items:center;}
+.school img {max-height:2rem;margin:0 1rem;}
+@media (min-width: 575px) {
+	.vox-photo {float:right;margin:0 0 0 1.25rem;}
+	.copyright {justify-content:flex-start;}
+	.school {justify-content:flex-end;}
+}
+@media (min-width: 768px) {
+	main {margin-top:1.25rem;border:1px solid #c1c1c1;border-radius:5px;box-shadow:0 0 10px rgba(0,0,0,0.25);}
+}
